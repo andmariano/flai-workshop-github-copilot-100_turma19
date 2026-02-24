@@ -14,10 +14,28 @@
 }
 
 .participants-list {
-  list-style-type: disc;
-  margin-left: 20px;
+  list-style-type: none;
+  margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #d11a2a;
+  margin-left: 8px;
+  font-size: 1.2em;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #a00;
+}
 }
 
 .participant-item {
